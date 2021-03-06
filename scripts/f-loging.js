@@ -1,4 +1,5 @@
 window.addEventListener('load', ()=>{
+    //SHow message, if user clicked on login button.
     let form = document.querySelector('#form')
     form.addEventListener('submit', (e)=>{
         e.preventDefault()
